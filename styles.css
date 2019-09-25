@@ -150,18 +150,16 @@ header a {
 .demo img {
   display: block;
   z-index: 10;
-  max-width: calc(100% - 200px);
+  width: calc(100% - 200px);
+  max-width: 1200px;
   margin: 80px auto 0;
   margin-bottom: 145px;
   display: none;
-  /* opacity: 0; */
 }
 
 .demo img.show {
   position: relative;
   display: block;
-  /* opacity: 1; */
-  /* transition: opacity 0.5s ease-in-out; */
 }
 
 .content {
@@ -222,7 +220,7 @@ p {
 }
 .bottom-logo {
   shape-outside: polygon(0px 0px, 100% 0px, 100% 100%);
-  clip-path: polygon(0px 0px, 100% 0px, 100% 100%);
+  clip-path: polygon(-1px -1px, 100% -1px, 100% 100%);
   width: 100%;
   background-color: white;
   height: 100px;
