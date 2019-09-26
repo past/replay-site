@@ -4,6 +4,13 @@ body {
   margin: 0;
 }
 
+#twitter {
+  background: #ffff8e;
+  text-align: center;
+  color: #9c7c04;
+  line-height: 30px;
+}
+
 .triangle {
   width: 0;
   height: 0;
