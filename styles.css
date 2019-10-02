@@ -156,17 +156,10 @@ header a {
 
 .demo img {
   display: block;
-  z-index: 10;
   width: calc(100% - 200px);
   max-width: 1200px;
   margin: 80px auto 0;
   margin-bottom: 145px;
-  display: none;
-}
-
-.demo img.show {
-  position: relative;
-  display: block;
 }
 
 .content {
