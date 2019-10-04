@@ -2,7 +2,7 @@ const images = [
   "/assets/screenshots/1.png",
   "/assets/screenshots/2.png",
   "/assets/screenshots/3.png",
-  "/assets/screenshots/3.png"
+  "/assets/screenshots/4.png"
 ];
 
 let i = 0;
@@ -19,4 +19,5 @@ function preload() {
   }
 }
 
-preload();
+// This preloads images after the fonts
+setTimeout(preload, 0);
