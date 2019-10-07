@@ -123,6 +123,13 @@ header a {
   align-self: center;
 }
 
+.header.replay-logo {
+  z-index: 10;
+  margin-top: 0;
+  align-self: center;
+  width: 40px;
+}
+
 .dotted-line {
   width: 5px;
   height: 800px;
@@ -286,4 +293,62 @@ p {
     max-width: none;
     text-align: center;
   }
+}
+
+
+.videos .content {
+  width: 800px;
+
+}
+
+.videos .above-fold {
+  margin-bottom: 40px;
+}
+
+.videos h1 {
+  color: #F30698;
+  font-size: 40px;
+}
+
+.videos .video {
+  margin-top: 60px;
+}
+
+.video .description {
+    color: #525252;
+    margin-bottom: 20px;
+    width: 600px;
+  }
+
+
+.dashed-border::before {
+  background-image: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	  content: "";
+}
+
+.dashed-border::after {
+background-image: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	  content: "";
+
+}
+
+.dashed-border {
+  display: block;
+  position: relative;
+  height: 2px;
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #F30698 50%, #F30698 100%);
+  background-size: 40px;
+  border: none;
+  width:800px;
+  margin-top: 20px;
 }
