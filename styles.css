@@ -308,6 +308,8 @@ p {
 .videos h1 {
   color: #F30698;
   font-size: 40px;
+  font-weight: normal;
+  font-family: "Inter";
 }
 
 .videos .video {
