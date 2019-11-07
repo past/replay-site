@@ -221,7 +221,7 @@ ol {
 .instant-replay p {
   color: rgba(168, 0, 18, 0.69);
   text-align: center;
-  margin-bottom: 50px;
+  margin: 20px auto 50px auto;
 }
 
 .instant-replay img.logo {
