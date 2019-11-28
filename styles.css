@@ -295,16 +295,16 @@ img {
   .hero .hero-image img {
     transform: none;
     box-shadow: none;
-  }  
+  }
 
   .hero .hero-image {
     grid-row-start: 1;
-  }  
+  }
 
   .hero .hero-content {
     padding-inline-end: 32px;
     padding-top: 20px;
-  }  
+  }
 
   .feature, .feature:nth-child(even) {
     display: block;
@@ -318,7 +318,7 @@ img {
   .instructions img {
     display: none;
   }
-  
+
   .instruction {
     padding: 0px;
     text-align: left;
@@ -335,4 +335,51 @@ img {
   .feature-image {
     margin: 0 auto;
   }
+}
+
+
+.email-form {
+  background: ;
+  font-size: .8em;
+  background-color: rgba(0,0,0,0.3);
+  display: inline-block;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.email-form form {
+  margin: 0
+}
+.email-form input {
+  background: none;
+outline: none;
+border: none;
+color: #fff;
+line-height: 28px;
+padding: 0;
+ font-size: 14px;
+ opacity: 1;
+ margin: 5px 0 5px 18px;
+}
+
+.email-form input::placeholder {
+  opacity: 1;
+}
+.email-form ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  opacity: 1;
+}
+
+.email-form button:hover {
+  cursor: pointer;
+  background: #2f76f7;
+
+}
+.email-form button {
+  background: #2363D8;
+border: none;
+color: white;
+    border-radius: 17px;
+    height: 25px;
+    width: 70px;
+    font-size: 11px;
+    margin-right: 8px
 }
