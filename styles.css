@@ -74,6 +74,10 @@ img {
     color: white;
 }
 
+.hero a, .hero p {
+    color: white;
+}
+
 .hero .hero-content {
     padding-inline-end: 32px;
 }
@@ -109,7 +113,11 @@ h1 {
     font-size: 24px;
     font-weight: 600;
 }
-
+h2 {
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
 body {
     background: linear-gradient(139.48deg, #2B2657 11.93%, #A043BB 92.82%) no-repeat fixed;
 }
